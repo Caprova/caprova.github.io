@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Record Snapshot Support</title>
+  <meta name="description" content="Help and contact for Record Snapshot for Salesforce.">
+  <link rel="icon" href="/record-snapshot/icon.png">
+  <link rel="stylesheet" href="/site.css">
+</head>
+<body>
+<nav class="top">
+  <a class="brand" href="/">Caprova</a>
+  <a href="/record-snapshot/">Record Snapshot</a>
+  <a href="/record-snapshot/support/">Support</a>
+  <a href="/record-snapshot/privacy/">Privacy</a>
+</nav>
+<main>
+  <h1>Record Snapshot Support</h1>
+  <p class="muted">Need help? Email <a href="mailto:getcaprova@gmail.com">getcaprova@gmail.com</a>. Include your
+  browser (Chrome or Edge), the Salesforce object, and a screenshot of anything that looks wrong.</p>
+
+  <h2 id="install">Install</h2>
+  <p>Record Snapshot is available for Chrome and Microsoft Edge. Store links are coming soon. In the meantime,
+  contact us for access.</p>
+
+  <h2>Using it</h2>
+  <ol>
+    <li>Open a record in Salesforce Lightning.</li>
+    <li>Click the Record Snapshot icon in the toolbar. Pin it from the puzzle-piece menu so it stays visible.</li>
+    <li>Choose <strong>This view</strong> to capture what's on screen, or <strong>All tabs and sections</strong>
+      to capture every tab. In All tabs mode, tick the tabs you want. Your choice is remembered for that object.</li>
+    <li>Click <strong>Capture to PDF</strong>. Keep the Salesforce tab in front while the page scrolls.</li>
+    <li>A preview opens in a new tab. Click <strong>Download PDF</strong> to save it.</li>
+  </ol>
+  <p>Shortcut: <strong>Alt+Shift+S</strong> captures the current view. Settings (page size, file name, tabs to
+  skip) are under <strong>Settings</strong> in the popup.</p>
+
+  <h2>Troubleshooting</h2>
+  <h3>"Open a Salesforce Lightning page first"</h3>
+  <p>The extension works only on Salesforce Lightning pages (addresses ending in <code>lightning.force.com</code>
+  or <code>my.salesforce.com</code>). Salesforce Classic isn't supported.</p>
+  <h3>An error after updating the extension</h3>
+  <p>Refresh the Salesforce tab and try again. Pages that were open before an update keep the old version until
+  they're refreshed.</p>
+  <h3>Part of the PDF is blank or shows another tab</h3>
+  <p>Keep the Salesforce tab in front until the preview opens. Switching browser tabs during a capture interrupts
+  it.</p>
+  <h3>A tab I want is missing from the checklist</h3>
+  <p>Tabs nested inside another tab are captured as currently shown, not separately. Open the inner tab you want
+  before capturing.</p>
+  <h3>Faint lines or a misaligned strip in the PDF</h3>
+  <p>Try the <strong>High fidelity</strong> engine in Settings. It renders the whole page in one pass.</p>
+
+  <h2>For IT administrators</h2>
+  <p>You can force-install the extension and pre-set or lock its settings through browser policy (Google Admin,
+  Microsoft Intune or Group Policy). Configurable settings: <code>mode</code>, <code>engine</code>,
+  <code>pageSize</code>, <code>autoDownload</code>, <code>fileNamePattern</code>, <code>skipTabs</code>. Contact us for a
+  deployment guide.</p>
+</main>
+<footer>© 2026 Caprova · <a href="/record-snapshot/privacy/">Privacy policy</a></footer>
+</body>
+</html>
